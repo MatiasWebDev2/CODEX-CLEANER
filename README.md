@@ -49,6 +49,7 @@ Argumento	Alias	Tipo	Descrição	Padrão
 # 1. Uso básico:
 
 ```bash
+# A pasta base onde seu código ts esta
 codex-cleaner -p ./src
 
 # 2. Filtrar arquivos e remover itens específicos:
