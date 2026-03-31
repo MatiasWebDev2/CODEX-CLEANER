@@ -72,7 +72,7 @@ codex-cleaner -p ./src -f service -r auth.service.ts
 ### 3. Ignorar múltiplos arquivos:
 
 ```bash
-codex-cleaner -p ./src -r config.ts -r database.ts -r constants.ts#
+codex-cleaner -p ./src -r config.ts -r database.ts -r constants.ts
 ```
 
 ### 4. 📂 Alterar Arquivo de Saída
@@ -88,9 +88,6 @@ Isso resultará em: contexto_ia_1.txt, contexto_ia_2.txt, etc.
 ### 📋 Requisitos
 Node.js: Versão v18.3.0 ou superior.
 Motivo: O script utiliza o módulo nativo node:util/parseArgs, eliminando a necessidade de instalar bibliotecas externas para gerenciar argumentos de linha de comando.
-
-### 📄 Licença
-Este projeto está sob a licença MIT.
 
 ### 📄 Licença
 Este projeto está sob a licença MIT.
