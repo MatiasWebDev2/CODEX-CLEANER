@@ -45,11 +45,14 @@ codex-cleaner --path ./sua-pasta-de-codigo
 
 ## ⚙️ Opções Disponíveis
 
-Argumento	Alias	Tipo	Descrição	Padrão
---path	    -p	    string	(Obrigatório) Caminho do diretório para leitura.
---output	-o	    string	Nome base do arquivo de saída.	projeto_completo.txt
---filter	-f	    string	Processa apenas arquivos que contenham este termo no nome;
---remove	-r	    array	Ignora arquivos específicos (pode ser usado múltiplas vezes). []
+
+| Argumento | Alias | Tipo | Descrição | Padrão |
+| :--- | :--- | :--- | :--- | :--- |
+| `--path` | `-p` | `string` | (Obrigatório) Caminho do diretório para leitura. | |
+| `--output` | `-o` | `string` | Nome base do arquivo de saída. | `projeto_completo.txt` |
+| `--filter` | `-f` | `string` | Processa apenas arquivos que contenham este termo no nome. | |
+| `--remove` | `-r` | `array` | Ignora arquivos específicos (pode ser usado múltiplas vezes). | `[]` |
+
 
 ## 💡 Exemplos de Uso
 # 1. Uso básico:
