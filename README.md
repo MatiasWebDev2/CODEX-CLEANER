@@ -26,6 +26,8 @@ Você pode usar a ferramenta via npx (sem instalação) ou instalá-la globalmen
 ```bash
 # Via npx
 npx codex-cleaner -p ./src
+```
+
 
 # Instalação Global
 npm install -g codex-cleaner
@@ -36,6 +38,7 @@ O comando básico requer apenas o caminho da pasta de origem através do parâme
 
 ```bash
 codex-cleaner --path ./sua-pasta-de-codigo
+```
 
 ## ⚙️ Opções Disponíveis
 
@@ -50,23 +53,27 @@ Argumento	Alias	Tipo	Descrição	Padrão
 
 ```bash
 codex-cleaner -p ./src
+```
 
 # 2. Filtrar arquivos e remover itens específicos:
 Se você quer apenas os arquivos que têm "service" no nome, mas quer ignorar o auth.service.ts:
 
 ```bash
 codex-cleaner -p ./src -f service -r auth.service.ts
+```
 
 # 3. Ignorar múltiplos arquivos:
 
 ```bash
 codex-cleaner -p ./src -r config.ts -r database.ts -r constants.ts#
+```
 
 # 4. 📂 Alterar Arquivo de Saída
 Por padrão, o script gera arquivos numerados como projeto_completo_1.txt, projeto_completo_2.txt, etc. Para mudar esse nome base, use a flag -o:
 
 ```bash
 codex-cleaner -p ./src -o contexto_ia.txt
+```
 
 
 Isso resultará em: contexto_ia_1.txt, contexto_ia_2.txt, etc.
