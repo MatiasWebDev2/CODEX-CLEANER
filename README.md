@@ -30,7 +30,9 @@ npx codex-cleaner -p ./src
 
 
 # Instalação Global
+```bash
 npm install -g codex-cleaner
+```
 
 ## 🛠️ Guia de Uso
 
