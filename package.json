@@ -1,0 +1,15 @@
+{
+  "name": "codex-cleaner",
+  "version": "1.0.0",
+  "description": "Consolida e limpa arquivos TS para contexto de LLM",
+  "main": "bin/cli.js",
+  "bin": {
+    "codex-cleaner": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "keywords": ["cli", "cleaner", "llm", "typescript"],
+  "author": "Cleverson Matias",
+  "license": "MIT"
+}
